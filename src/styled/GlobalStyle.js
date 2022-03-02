@@ -29,10 +29,17 @@ const GlobalStyled = createGlobalStyle`
     font-size: 1.2rem;
     list-styled: none;
     text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 body{
     background-color: var(--background-dark-color);
+    color: var(--font-light-color);
+}
+a{
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
 }
 
 `;

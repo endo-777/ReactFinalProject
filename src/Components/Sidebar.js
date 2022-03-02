@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import Navigation from './Navigation'
 
 const Sidebar = () => {
   return (
     <SidebarStyled>
-        Sidebar
+        <Navigation/>
     </SidebarStyled>
   )
 }
