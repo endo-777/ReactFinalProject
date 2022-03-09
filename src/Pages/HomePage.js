@@ -19,7 +19,7 @@ const HomePage = () => {
             <a href="https://www.facebook.com/pooh.phupha/" className="icon i-facebook" target="_blank"> <Facebook/> </a>
           </div>
           <div className="icon i-github">
-            <a href="https://github.com/c0zyb0y" className="icon i-github" target="_blank"><GitHub /></a>
+            <a href="https://github.com/c0zyb0y/ReactFinalProject" className="icon i-github" target="_blank"><GitHub /></a>
           </div>
           <div className="icon i-youtube">
             <a href="https://www.youtube.com/channel/UC7e33RMBPSTc0R63-y2n3iw" className="icon i-youtube" target="_blank"><YouTube /></a>
@@ -66,7 +66,7 @@ position: relative;
           margin: 0.5rem;
         }
       }
-      
+
       .i-facebook {
         &:hover {
           border: 2px solid var(--primary-color);

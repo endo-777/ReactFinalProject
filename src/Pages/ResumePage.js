@@ -1,9 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
+import Title from '../Components/Title'
+import {InnerLayout, MainLayout, } from '../styled/Layout'
 
 const ResumePage = () => {
   return (
-    <div>ResumePagesdsdsdsdsd</div>
+    <ResumePageStyled>
+        <MainLayout>
+            <InnerLayout>
+                <Title title={'Resume'} span={'Resume'}/>
+            </InnerLayout>
+        </MainLayout>
+    </ResumePageStyled>
   )
 }
 
+const ResumePageStyled = styled.div`
+
+`
 export default ResumePage
