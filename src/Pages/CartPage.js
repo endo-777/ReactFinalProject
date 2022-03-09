@@ -53,12 +53,8 @@ const CartPage = () => {
 };
 
 const CartPageStyled = styled.div`
-  .table-style {
-    margin-top: 5rem;
-    display: flex;
-    border-collapse: separate;
-    border-spacing: 1px;
-    border-width: 1px;
-  }
+.container{
+  margin-top: 5rem;
+}
 `;
 export default CartPage;

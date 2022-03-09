@@ -10,9 +10,7 @@ const HomePage = () => {
           Hi I'm <span>Phupha Noppakun</span>
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when
+          I am student at Thai Nichi Institue of Technology
         </p>
         <div className="icons">
           <div className="icon i-facebook">

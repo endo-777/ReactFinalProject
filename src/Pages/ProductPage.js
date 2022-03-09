@@ -65,14 +65,14 @@ const ProductPage = () => {
   };
 
   return (
-    <div>
+    <ProductStyled>
       <MainLayout>
         <InnerLayout>
           <Title  title={"Product"} span={"product"} />
           <div className="container">
           <div className="row">
             <div className="col-md-12 mt-4">
-              <Table striped bordered hover variant="dark" className='table-style'>
+              <Table striped bordered hover variant="dark" >
                 <thead>
                   <tr>
                     <th>ID</th>
@@ -119,17 +119,15 @@ const ProductPage = () => {
         </div>
         </InnerLayout>
       </MainLayout>
-    </div>
+    </ProductStyled>
   );
 };
 
 const ProductStyled = styled.div`
-.table-style{
+.container{
   margin-top: 5rem;
   display: flex;
-  border-collapse: separate;
-  border-spacing: 1px ;
-  border-width: 1px;
+  
 }
  
 `;
