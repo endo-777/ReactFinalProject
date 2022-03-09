@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Resume from '../Components/Resume'
+import Skills from '../Components/Skill'
 import Title from '../Components/Title'
 import {InnerLayout, MainLayout, } from '../styled/Layout'
 
@@ -8,7 +10,8 @@ const ResumePage = () => {
     <ResumePageStyled>
         <MainLayout>
             <InnerLayout>
-                <Title title={'Resume'} span={'Resume'}/>
+                <Skills/>
+                <Resume/>
             </InnerLayout>
         </MainLayout>
     </ResumePageStyled>

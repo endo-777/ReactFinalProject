@@ -11,6 +11,11 @@ import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core"
 import { Brightness4 } from "@material-ui/icons";
 import { useEffect, useState } from "react";
+import rootReducer from "./redux/reducers/index";
+import {Provider} from 'react-redux'
+import { createStore } from "redux";
+
+const store = createStore(rootReducer)
 
 
 function App() {
@@ -34,6 +39,7 @@ function App() {
 
 
   return (
+    <Provider store={store}>
     <div className="App">
       <Sidebar/>
       <MainContentStyled className="main-content">
@@ -61,6 +67,7 @@ function App() {
         </Switching>
       </MainContentStyled>
     </div>
+    </Provider>
   );
 }
 
